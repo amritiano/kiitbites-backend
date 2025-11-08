@@ -20,7 +20,7 @@ function createConnection(uri, name) {
     console.info(`⚠️ ${name} database disconnected`);
   });
 
-  return connection;
+  return connection;  
 }
 
 // Create connections with proper error handling
